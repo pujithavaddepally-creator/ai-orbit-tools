@@ -558,8 +558,8 @@ export default function HomePage() {
             {!loading && error && (
               <div className="rounded-2xl border border-red-500/20 bg-red-500/[0.06] p-10 text-center">
                 <h2 className="text-xl font-bold">
-  Couldn&apos;t load AI tools
-</h2>
+                  Couldn&apos;t load AI tools
+                </h2>
 
                 <p className="mt-2 text-sm text-gray-400">
                   {error}
@@ -745,8 +745,30 @@ export default function HomePage() {
         )}
       </section>
 
+      {/* LARGE AI ORBIT BRANDING */}
+      {/* LARGE AI ORBIT BRANDING */}
+<section className="relative overflow-hidden border-t border-white/10 bg-[#050505] py-24 sm:py-32 lg:py-40">
+  <div className="pointer-events-none absolute inset-0">
+    <div className="absolute left-1/4 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-purple-500/[0.08] blur-3xl" />
+    <div className="absolute right-1/4 top-1/2 h-72 w-72 -translate-y-1/2 rounded-full bg-blue-500/[0.06] blur-3xl" />
+  </div>
+
+  <div className="relative w-full overflow-hidden">
+    <h2
+      aria-label="AI ORBIT"
+      className="select-none whitespace-nowrap bg-gradient-to-r from-purple-400/30 via-pink-400/30 to-blue-400/30 bg-clip-text text-center text-[18vw] font-black leading-none tracking-[-0.08em] text-transparent sm:text-[17vw] lg:text-[15vw]"
+    >
+      AI ORBIT
+    </h2>
+  </div>
+
+  <p className="relative mt-6 text-center text-xs font-semibold uppercase tracking-[0.35em] text-purple-300/40 sm:text-sm">
+    Discover • Compare • Explore AI
+  </p>
+</section>
+
       {/* FOOTER */}
-      <footer className="mt-12 border-t border-white/10">
+      <footer className="border-t border-white/10">
         <div className="mx-auto flex max-w-7xl flex-col gap-3 px-4 py-8 text-center text-sm text-gray-500 sm:flex-row sm:items-center sm:justify-between sm:px-6 lg:px-8 sm:text-left">
           <p>© 2026 AI Orbit Tools Directory</p>
 
